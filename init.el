@@ -14,6 +14,8 @@
 (require 'init-my-copy-kill)
 (require 'init-uniquify)
 
+(require 'init-ido)
+
 ;; (require 'init-my-comment)
 (require 'init-key)
 (when *is-win*
