@@ -5,11 +5,15 @@
 (require 'init-elpa)
 
 (require-package 'comment-dwim-2)
+(require-package 'diminish)
+;; (require-package 'wgrep)
 
 
-(require 'init-ui)
+(require 'init-basic)
 (require 'init-better)
 (require 'init-my-copy-kill)
+(require 'init-uniquify)
+
 ;; (require 'init-my-comment)
 (require 'init-key)
 (when *is-win*

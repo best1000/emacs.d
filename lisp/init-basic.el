@@ -28,4 +28,4 @@
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 
-(provide 'init-ui)
+(provide 'init-basic)
