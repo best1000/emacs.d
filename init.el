@@ -2,9 +2,11 @@
 
 (defconst *is-win* (eq system-type 'windows-nt))
 
+(require 'init-elpa)
+
 (require-package 'comment-dwim-2)
 
-(require 'init-elpa)
+
 (require 'init-ui)
 (require 'init-better)
 (require 'init-my-copy-kill)
