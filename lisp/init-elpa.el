@@ -1,8 +1,12 @@
 (require 'package)
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.org/packages/")))
+                         ("marmalade" . "http://marmalade-repo.org/packages/")))
+(add-to-list 'package-archives
+             `("melpa" . ,(if *is-win*
+                              "http://melpa.org/packages/"
+                            "https://melpa.org/packages/")))
+
 ;;; On-demand installation of packages
 
 (defun require-package (package &optional min-version no-refresh)
