@@ -23,3 +23,6 @@
 (require 'init-key)
 (when *is-win*
   (require 'init-win))
+
+
+(require 'lang-c)
