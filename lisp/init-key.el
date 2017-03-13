@@ -4,6 +4,8 @@
 (global-set-key (kbd "C-M-r") 'isearch-backward)
 
 (global-set-key (kbd "M-z") 'zap-up-to-char)
+(global-set-key (kbd "M-/") 'hippie-expand)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 
 ;; my better copy and kill
 
