@@ -18,14 +18,24 @@
 ;;display column number
 (setq column-number-mode t)
 
+;; case insense
+(setq case-fold-search t)
 
+;;insert in the selection area
+(setq delete-selection-mode t)
 
-;; Remove useless whitespace before saving a file
-(add-hook 'before-save-hook 'whitespace-cleanup)
-(add-hook 'before-save-hook (lambda() (delete-trailing-whitespace)))
+(setq ediff-split-window-function 'split-window-horizontally)
+
+(setq ediff-window-setup-function 'ediff-setup-windows-plain)
+
 
 ;; do not backup file
 (setq make-backup-files nil)
 (setq auto-save-default nil)
+
+;; no tabs
+(setq-default indent-tabs-mode nil)
+
+
 
 (provide 'init-basic)

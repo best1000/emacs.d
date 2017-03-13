@@ -18,4 +18,8 @@
 
 (global-set-key (kbd "M-;") 'comment-dwim-2)
 
+(global-set-key (kbd "RET") 'newline-and-indent)
+
+(global-set-key (kbd "M-y") 'browse-kill-ring)
+
 (provide 'init-key)
