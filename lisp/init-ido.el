@@ -4,10 +4,10 @@
 (setq ido-use-filename-at-point nil)
 (setq ido-auto-merge-work-directories-length -1)
 (setq ido-use-virtual-buffers t)
-(setq-default org-completion-use-ido t)
-(setq-default magit-completing-read-function 'magit-ido-completing-read)
+;; (setq-default org-completion-use-ido t)
+;; (setq-default magit-completing-read-function 'magit-ido-completing-read)
 
-(require-package 'idomenu)
+;; (require-package 'idomenu)
 
 ;; Allow the same buffer to be open in different frames
 (setq ido-default-buffer-method 'selected-window)
