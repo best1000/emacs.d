@@ -14,6 +14,8 @@
 (require 'init-my-copy-kill)
 (require 'init-uniquify)
 
+(require 'init-hippie-expand)
+
 (require 'init-recentf)
 (require 'init-ido)
 
