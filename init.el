@@ -14,6 +14,7 @@
 (require 'init-my-copy-kill)
 (require 'init-uniquify)
 
+(require 'init-recentf)
 (require 'init-ido)
 
 ;; (require 'init-my-comment)
