@@ -18,8 +18,10 @@
 (require-package 'browse-kill-ring)
 (setq browse-kill-ring-separator "\f")
 
-(require-package 'autopair)
-(autopair-global-mode)
+;; (require-package 'autopair)
+;; (autopair-global-mode)
+
+(electric-pair-mode)
 
 
 (require-package 'indent-guide)

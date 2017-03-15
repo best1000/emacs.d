@@ -26,3 +26,4 @@
 
 
 (require 'lang-c)
+(require 'lang-perl)
