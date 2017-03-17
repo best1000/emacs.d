@@ -18,6 +18,7 @@
 
 (require 'init-recentf)
 (require 'init-ido)
+(require 'init-smex)
 
 ;; (require 'init-my-comment)
 (require 'init-key)
